@@ -12,7 +12,7 @@
   
 .logo h2{
     font-size: 45px;
-    font-weight: 900;
+    font-weight: 900px;
 }
 .color-orange{
     color: #FD6E0A;
@@ -32,6 +32,7 @@
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
 .section-heading h2 {
     font-size: 35px;
@@ -114,7 +115,7 @@ nav .menu a{
     vertical-align: middle;
 }
 
-#about {
+#about , #skill , #resume {
     padding-top: 130px;
 }
 #about .about-content {
@@ -128,7 +129,7 @@ nav .menu a{
 
 #about .about-content .about-info{
     display: flex;
-    justify-content: space-around;
+    
     gap: 22px;
 }
 .about-info .info-card p{
@@ -141,4 +142,83 @@ nav .menu a{
 .about-info .info-card h5 {
 
     font-size: 15px;
+}
+
+
+
+#skill .skill-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#skill .skill-container .skill-box {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.skill-box .skill-card {
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 #0000003f
+
+}
+.skill-card img {
+    max-width: 44px;
+    margin-bottom: 30px;
+    
+}
+
+.skill-card h4 {
+    font-size: 16px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill-card p{
+     font-size: 14px;
+    color: #757575;
+    line-height: 28px;
+    
+}
+
+.resume-container hr{
+    margin: 30px 0;
+}
+#resume .resume-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0 ;
+    display: flex;
+    gap: 24px;
+}
+.resume-container .section-title {
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+
+}
+.resume-card .card-title {
+    font-size:25px ;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.resume-card  .card-info {
+      font-size:20px ;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+.resume-card  .card-text {
+      font-size:15px ;
+    line-height: 28px;
+    margin-bottom: 20px;
+    color: #757575;
 }
