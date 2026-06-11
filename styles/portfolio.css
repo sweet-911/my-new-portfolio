@@ -250,7 +250,7 @@ nav .menu a{
   }
 
  .footer-container h2{
-    font-size:px  ;
+    font-size:35px  ;
     color: #181818;
     margin-bottom: 20px;
  }
@@ -269,3 +269,6 @@ nav .menu a{
     color: #757575;
  }
 
+.footer-container form .message {
+    font-weight: 16px;
+}
